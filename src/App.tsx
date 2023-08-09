@@ -1,12 +1,12 @@
 import "./App.css";
 
-import { ButtonComponent } from "./components/Button";
+// Pages
+import { MainComponent } from "./pages/Main";
 
 function App() {
 	return (
 		<div className="App">
-			<ButtonComponent />
-			<p>Test</p>
+			<MainComponent />
 		</div>
 	);
 }

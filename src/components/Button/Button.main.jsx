@@ -6,7 +6,9 @@ import { Button } from "antd";
 const ButtonMain = ({ onButtonClick }) => {
 	return (
 		<div className="container">
-			<Button onClick={onButtonClick} className="button">Clickeame :D</Button>
+			<Button onClick={onButtonClick} className="button">
+				Clickeame :D
+			</Button>
 		</div>
 	);
 };

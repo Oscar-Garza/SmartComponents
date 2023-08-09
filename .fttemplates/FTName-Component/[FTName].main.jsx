@@ -1,4 +1,4 @@
-import [FTName].style.css
+import "./[FTName].style.css"
 
 const [FTName]Main = ({}) => {
     return (
