@@ -1,6 +1,6 @@
 import [FTName].style.css
 
-export default [FTName] = ({}) => {
+const [FTName]Main = ({}) => {
     return (
         <div className="container">
             <Text
@@ -9,3 +9,5 @@ export default [FTName] = ({}) => {
         </div>
     );
 };
+
+export default [FTName]Main;
